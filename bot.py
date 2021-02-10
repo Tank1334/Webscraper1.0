@@ -5,7 +5,7 @@ from discord.ext.commands import Bot
 from time import sleep
 
 
-client = Bot(command_prefix = '!')
+client = Bot(command_prefix = '!') #set the prefix of the bot to !
 
 
 @tasks.loop(hours=1.0)
